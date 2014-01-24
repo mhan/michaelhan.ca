@@ -2,6 +2,7 @@ div#about
     div#name
         h1 Michael Han
         img#avatar(src="avatar.png")
+        p @michaelhan
 
     div.me
         p.
@@ -10,17 +11,17 @@ div#about
             dabbled in Ruby, Java, C, C#, C++, and Scheme.
 
 div#experience
-    h2 Experience
+    h2 Work History
 
     div.job
         div.overview
-            h3.job-title Software Architect @ ForeSee (2008-Present)
+            h3.job-title Software Architect @ <a href="http://www.foresee.com">ForeSee</a> (2008-Present)
 
             p.
                 In 2008 I joined ForeSee as a developer working on the initial release
                 of SessionReplay, a Javascript tool that records how users interact with a website
                 and produces high fidelity movies to analyze usability issues.
-    
+            br 
             p.
                 In early 2010, I transitioned to iOS development and have been working primarily on 
                 iOS projects ever since.
@@ -33,7 +34,7 @@ div#experience
                     are made by taking screenshots of the app (on a background thread) and creating mp4 movies
                     from those screenshots. Together with recorded metadata, such as touches, a full recording 
                     is produced that is viewed through a Flash based player.
-
+                br
                 p.
                     Learned a lot about Objective-C, its dynamic runtime, performance analysis using 
                     Instruments, and a variety of built-in Cocoa frameworks on this project.
@@ -44,6 +45,7 @@ div#experience
                 p.
                     An SDK that provides developers a mechanism to invite their users to participate
                     in satisfaction surveys.
+                br
 
                 p.
                     Though this was a relatively simple project, it taught me a lot about designing APIs,
@@ -51,18 +53,14 @@ div#experience
                     that functionality and the pitfalls of not having a proper deprecation strategy.
 
             div.project 
-                h4 Executive Portal Site
-
-                p.
-                    Took a small hiatus from iOS development to level-up my JS skills by contributing
-                    a custom DatePicker view with Backbone for a new customer facing portal site.
-
-            div.project 
                 h4 Location-based survey panel app (prototype)
 
                 p.
                     Prototyped a iOS app that used location services to track a users proximity
                     to a physical store to try and determine whether the user entered and exited that store.
+                    
+                br
+                p.
                     Developed a number of heuristics based mostly on location accuracy to determine whether
                     someone actually entered and exited a store.
 
@@ -92,6 +90,4 @@ div#experience
 div#education
     h2 Education
 
-    h3.job-title B.Sc @ University of British Columbia (2000-2005)
-
-    p Major in Computer Science and a minor in Philosophy
+    p B.Sc. Computer Science @ <a href="http://www.ubc.ca">UBC</a>,  (2000-2005)
