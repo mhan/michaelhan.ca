@@ -15,9 +15,39 @@ body {
 
 h1 {
     font-size: 3em;
-    padding-top: 1.25em;
     font-weight: 300;
 }
+
+#about {
+    #header {
+        overflow: auto;
+    }
+
+    #name {
+        float: left;
+        h1 {
+            padding-top: 1.25em;
+        }
+    }
+
+    #avatar {
+        float: left;
+        position: relative;
+        top: 56px;
+        left: 24px;
+    }
+
+    #contact {
+        clear: both;
+        padding-bottom: 2.5em;
+        padding-top: 1.25em;
+    }
+
+    #me {
+    }
+}
+
+
 
 h2 {
     font-size: 2em;
@@ -46,22 +76,10 @@ h4 {
     padding: 1.25em 1em;
 }
 
-div#name {
-    overflow: auto;
-
-    h1 {
-        float:left;
-    }
-}
-
 #avatar {
     img {
         width: 60px;
         height: 60px;
-        float: left;
-        top: 56px;
-        position: relative;
-        left: 16px;
     }
 }
 
