@@ -10,7 +10,12 @@ body {
   color: #444;
   width: 680px;
   margin: auto;
-  margin-bottom: 4em;
+  margin-bottom: 5em;
+  margin-top: 1.25em;
+}
+
+a {
+    color: #4A87FF
 }
 
 h1 {
@@ -18,41 +23,10 @@ h1 {
     font-weight: 300;
 }
 
-#about {
-    #header {
-        overflow: auto;
-    }
-
-    #name {
-        float: left;
-        h1 {
-            padding-top: 1.25em;
-        }
-    }
-
-    #avatar {
-        float: left;
-        position: relative;
-        top: 56px;
-        left: 24px;
-    }
-
-    #contact {
-        clear: both;
-        padding-bottom: 2.5em;
-        padding-top: 1.25em;
-    }
-
-    #me {
-    }
-}
-
-
-
 h2 {
     font-size: 2em;
-    padding-top: 1.25em;
-    padding-bottom: 1.25em;
+    //padding-top: 1.25em;
+    //padding-bottom: 1.25em;
 }
 
 h3 {
@@ -68,32 +42,41 @@ h4 {
     font-style: oblique;
 }
 
-#me {
-    clear: both;
-    border-radius: 12px;
-    background-color: #4A87FF;
-    color: #F4F4F4;
-    padding: 1.25em 1em;
-}
+#about {
+    #name {
+        float: left;
+        h1 {
+            padding-top: 1.25em;
+        }
+    }
 
-#avatar {
-    img {
-        width: 60px;
-        height: 60px;
+    #avatar {
+        float: left;
+        position: relative;
+        top: 56px;
+        left: 24px;
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    #contact {
+        clear: both;
+        padding-bottom: 2.5em;
+        padding-top: 1.25em;
+    }
+
+    #me {
+        clear: both;
+        border-radius: 12px;
+        background-color: #4A87FF;
+        color: #F4F4F4;
+        p {
+            padding: 1.25em 1em;
+        }
     }
 }
 
-div#experience {
-    div:first-child h3 {
-        padding-top: 0em;
-    }
-}
-div#education {
-    h3 {
-        padding-top: 0em;
-    }
-}
-
-a {
-    color: #4A87FF
+#experience {
 }
