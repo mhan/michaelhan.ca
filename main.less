@@ -25,21 +25,20 @@ h1 {
 
 h2 {
     font-size: 2em;
-    //padding-top: 1.25em;
-    //padding-bottom: 1.25em;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
 }
 
 h3 {
     font-size: 1.1667em;
-    padding-bottom: 1.5178599936143038em;
-    padding-top: 1.5178599936143038em;
+    padding-bottom: 1em;
 }
 
 h4 {
     font-size: 1em;
     padding-bottom: 1.25em;
-    padding-top: 1.25em;
     font-style: oblique;
+    font-weight: 300;
 }
 
 #about {
@@ -72,11 +71,32 @@ h4 {
         border-radius: 12px;
         background-color: #4A87FF;
         color: #F4F4F4;
+        padding: 1.25em 1em;
         p {
-            padding: 1.25em 1em;
+           padding-bottom: 1.25em;
+        }
+        p:last-child {
+            padding-bottom: 0em;
+        }
+        a {
+            color: inherit;
         }
     }
 }
 
 #experience {
+    li {
+        p {
+            margin-bottom: 1.25em;
+        }
+    }
+
+    .job:last-child {
+
+        li:last-child {
+            p:last-child {
+                margin-bottom: 0em;
+            }
+        }
+    }
 }
