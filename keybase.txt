@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/michaelhan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.michaelhan.ca
+  * I am michaelhan (https://keybase.io/michaelhan) on keybase.
+  * I have a public key with fingerprint A18E 019B E541 2B66 7FFE  C7AB EEE3 591A F25A 60F0
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "a18e019be5412b667ffec7abeee3591af25a60f0",
+            "host": "keybase.io",
+            "key_id": "eee3591af25a60f0",
+            "kid": "0101016578709b8cd50f5ec65257cc5a089b016bfbb43b964404524fd40452e249810a",
+            "uid": "5fbbbfb9b8ab4f170572b126f944ab00",
+            "username": "michaelhan"
+        },
+        "service": {
+            "hostname": "www.michaelhan.ca",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427071035,
+    "expire_in": 157680000,
+    "prev": "52be48ba6eee0a4858be7d84d1a3c49e73775331df20bd28638591a9104e3a5a",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIbAnicbZJbSBVBGMfP0UqT8lIJQZmwUSCJze7O7OVkEmlmWYHdHso6zezOehaP
+u8c9N0u0K3YBTcoi6yEiKigJsvSlh0xMSxMCIYJ8yMqkiw9ZFJEPzR6MXpp5GOb7
+ft//u/D1zU/2pHkzQFntz0v3I96hxxujnl0ZB9bUc8TWD3K+eq6aJh7DtKqoE3JM
+K8L5OMwrFPAqoQjyApEk2TCoJmNCKRWRymNDQFgCBuDyuYAddiOYDMFhWmDazMY+
+flNn1v/w1QkH4N0rIVmRgUoUTUfAQFSTkIBkTUMYKCphfmIQAkWiShACiARo6ImX
+ClBVeICZXDQhhxjHWKaECTR4GSBZILwgGSqEmAA3bzRMHQvXUEbXmFoA02AAW1xD
+PsfsMVOj7hDcXmaYeDxe8I8r0NxcIceO2JodZO5AJBLyudGRg6EETol/RshPTEtn
+02QBMeqETdvifDwjtYjpKvNQkIHMAxHlc7QuZDrUb7oEkiUFsOOmoTG3J4FQqBAs
+sSECDBWkECrrCtR5LGpQpbIoy0gUed0QANEFRRIVd9QqDyAVMXILDtNay+Z8AisT
+VzHJsFll4UjUoVxDb0/lLI83zTNndpK7D560uZl/tyQXpEyntwSGl6932sv333Qq
+Syce9HZ/NauLphYMZ6192NH8O3vn9Mv5mcHMo1WKf+/UpYkPRvr41sHNHXfexmu3
+dwxLV49fONr89Ppo2zqSXbLSvPEjO+mWP6vibN7nT+WNTRldsRVj6Ff0++LC8mBq
+SeDVyZGFt88IhRsavwxt6Rl58+xe07kDR+4Vg4/Fl1PfLYwVd4+2fmnsOlm+7Ulp
+59uelEUth16Nfd699PmFqTlDMu18HVi5bqp9nnQ95+6LnBRnX1bbicmaHZ/6NyWv
+yuub7LhS1OotW/JtO13mtx/1H6udHC804Orppjrr1OnA6J7Dg9fOD9S122ljwSW5
+O4MjPysG3l/8A0T1KQc=
+=t3Yv
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/michaelhan
+
+==================================================================
