@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Helvetica";
+  font-size: 100%;
+  line-height: 1.25;
+  background: #f4f4f7;
+  color: #444;
+  width: 680px;
+  margin: auto;
+  margin-bottom: 5em;
+  margin-top: 1.25em;
+}
+a {
+  color: #4a87ff;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+}
+h2 {
+  font-size: 2em;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+h3 {
+  font-size: 1.1667em;
+  padding-bottom: 1em;
+}
+h4 {
+  font-size: 1em;
+  padding-bottom: 1.25em;
+  font-style: oblique;
+  font-weight: 300;
+}
+#about #name {
+  float: left;
+}
+#about #name h1 {
+  padding-top: 1.25em;
+}
+#about #avatar {
+  float: left;
+  position: relative;
+  top: 56px;
+  left: 24px;
+}
+#about #avatar img {
+  width: 60px;
+  height: 60px;
+}
+#about #contact {
+  clear: both;
+  padding-bottom: 2.5em;
+  padding-top: 1.25em;
+}
+#about #me {
+  clear: both;
+  border-radius: 12px;
+  background-color: #4a87ff;
+  color: #f4f4f4;
+  padding: 1.25em 1em;
+}
+#about #me p {
+  padding-bottom: 1.25em;
+}
+#about #me p:last-child {
+  padding-bottom: 0em;
+}
+#about #me a {
+  color: inherit;
+}
+#experience li p {
+  margin-bottom: 1.25em;
+}
+#experience .job:last-child li:last-child p:last-child {
+  margin-bottom: 0em;
+}
