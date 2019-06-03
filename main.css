@@ -90,3 +90,6 @@ h4 {
 #experience .job:last-child li:last-child p:last-child {
   margin-bottom: 0em;
 }
+ul {
+  padding-left: 20px;
+}
