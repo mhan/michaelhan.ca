@@ -2,7 +2,7 @@
   margin: 0;
 }
 body {
-  font-family: "Helvetica";
+  font-family: Helvetica, "Source Sans Pro", sans-serif;
   font-size: 100%;
   line-height: 1.25;
   background: #f4f4f7;
@@ -47,9 +47,13 @@ h4 {
   left: 24px;
 }
 #about #avatar img {
-  width: 60px;
-  height: 60px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: inset 0 1.5px 3px 0 rgba(0,0,0,.15),0 1.5px 3px 0 rgba(0,0,0,.15);
 }
+
 #about #contact {
   clear: both;
   padding-bottom: 2.5em;
