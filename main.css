@@ -2,22 +2,23 @@
   margin: 0;
 }
 body {
-  font-family: Helvetica, "Source Sans Pro", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 100%;
   line-height: 1.25;
   background: #f4f4f7;
   color: #444;
-  width: 680px;
+  width: 80%;
   margin: auto;
+  margin-top: 2.5em;
   margin-bottom: 5em;
-  margin-top: 1.25em;
 }
 a {
   color: #4a87ff;
 }
 h1 {
-  font-size: 3em;
-  font-weight: 300;
+  /*font-size: 3em;*/
+  font-size: 2.3em;
+  font-weight: 800;
 }
 h2 {
   font-size: 2em;
@@ -34,17 +35,25 @@ h4 {
   font-style: oblique;
   font-weight: 300;
 }
+#header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#header #name {
+  flex-shrink: 1;
+}
 #about #name {
   float: left;
 }
 #about #name h1 {
-  padding-top: 1.25em;
 }
 #about #avatar {
-  float: left;
+  /*float: left;
   position: relative;
   top: 56px;
-  left: 24px;
+  left: 24px;*/
+  display: none;
 }
 #about #avatar img {
   width: 64px;
