@@ -1,0 +1,10 @@
+h1 {
+  font-size: 2.3em;
+  font-weight: 800;
+}
+ul {
+  padding-left: 20px;
+}
+#about #avatar {
+  display: none;
+}

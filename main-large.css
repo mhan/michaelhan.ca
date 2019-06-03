@@ -1,17 +1,6 @@
 body {
-  width: 680px;
-}
-h1 {
-  font-size: 3em;
-  font-weight: 300;
+  width: 726px;
 }
 #header {
   padding-top: 1.25em;
-}
-ul {
-  padding-left: 40px;
-}
-#about #avatar {
-  display: block;
-  margin-left: 1.5em;
 }
